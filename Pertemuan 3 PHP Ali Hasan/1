@@ -1,0 +1,36 @@
+<?php 
+$nama = "Shakila";
+
+$upah1 = 5000;
+$upah2 = 6000;
+$upah3 = 7500;
+$upah4 = 9000;
+$jam = 15;
+
+switch (true) {
+    case($jam <= 48):
+        $gaji = $upah1*$jam;
+        break;
+
+    case($jam <= 36):
+        $gaji = $upah2*$jam;
+        break;
+
+    case($jam <= 12):
+        $gaji = $upah3*$jam;
+        break;
+        
+    case($jam <= 6):
+        $gaji = $upah3*$jam;
+        break;
+
+    default:
+        $lembur=($gaji-48)*0.25;
+        break;
+}       
+echo "Nama : ".$nama;
+<break>echo "Total Gaji=".$gaji;
+<break>echo "Gaji Lembur:".$lembur;
+
+
+ ?>
