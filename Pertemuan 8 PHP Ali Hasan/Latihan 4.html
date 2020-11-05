@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<button onclick="alert('Yokosho');">Alert</button>
+	<button onclick="confirm('Data akan dihapus');">Confirm</button>
+	<button onclick="prompt('Masukan Nama Anda!');">Prompt</button>
+	<script>
+		var Yakin = confirm('Ingin menambahkan nama?');
+		if (Yakin) {
+			var nama = prompt('Masukan Nama Anda!');
+			// document.write('Hai,' + nama);
+			console.log('Hai,' + nama);
+		} else {
+			alert('Yokosho!');
+		}
+		
+		
+		
+		
+
+	</script>
+</body>
+</html>
